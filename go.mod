@@ -1,4 +1,4 @@
-module github.com/iluyuns/smtp.proxy/client
+module github.com/iluyuns/smtp.proxy
 
 go 1.22.1
 

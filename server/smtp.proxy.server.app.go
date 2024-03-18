@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	client "github.com/iluyuns/smtp.proxy/client"
+	client "github.com/iluyuns/smtp.proxy"
 )
 
 var token = "Bearer " + os.Getenv("SMTP_PROXY_TOKEN")

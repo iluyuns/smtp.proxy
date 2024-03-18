@@ -3,7 +3,7 @@ package client_test
 import (
 	"testing"
 
-	client "github.com/iluyuns/smtp.proxy/client"
+	client "github.com/iluyuns/smtp.proxy"
 )
 
 // TestCheckEmail

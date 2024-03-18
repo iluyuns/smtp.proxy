@@ -5,4 +5,4 @@
 package client
 
 // Version is the current gin framework's version.
-const Version = "1.0.3"
+const Version = "v1.0.3"

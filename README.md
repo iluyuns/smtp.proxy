@@ -13,7 +13,7 @@
 
 // 完整的请求示例
 ```js
-var api = 'http://localhost:3000/api/send'
+var api = 'http://localhost:3000/api/mail/send'
 var method = 'POST'
 var token = 'your token'
 var headers = {

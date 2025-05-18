@@ -46,7 +46,6 @@ func (i *Client) SendMailWithTLS(from string, to []string, subject, body string,
 	m := gomail.NewMessage()
 	m.SetHeader("From", from)
 	m.SetHeader("To", to...)
-	// m.SetAddressHeader("Cc", "i@example.com", "i") 抄送
 	m.SetHeader("Subject", subject)
 	m.SetBody("text/html", body)
 	if len(filename) != 0 {
